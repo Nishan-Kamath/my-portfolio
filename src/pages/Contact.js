@@ -29,7 +29,7 @@ function Contact(){
                 <label>Contact Number</label>
                 <input type="text" value={contact} onChange={(e)=>setContact(e.target.value)}/>
 
-                <label>Contact Number</label>
+                <label>Message</label>
                 <input type="text" value={message} onChange={(e)=>setMessage(e.target.value)}/>
 
                 <button type="submit">submit</button>

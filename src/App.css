@@ -18,3 +18,98 @@ body{
   font-size: 40px;
   color: #222;
 }
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background: white;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo{
+  font-size: 24px;
+  font-weight: bold;
+  color: #8e0000;
+}
+
+.nav-links{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #11005b;
+  transition: 0.3s linear;
+}
+
+.nav-links li a:hover{
+  transform: scale(1.1);
+  color: rgb(255, 111, 0);
+}
+
+.profile-img{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.edu-card{
+  background-color: rgb(0, 0, 0);
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  width: 60%;
+  color: white;
+}
+
+.edu-page h2{
+  color: rgb(255, 46, 46);
+}
+
+.contact-form{
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input{
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: rgb(49, 0, 0);
+  background-color: rgb(255, 232, 232);
+}
+
+.contact-form button{
+  padding: 12px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor:pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover{
+  background-color: #11005b;
+  transform: scale(1.1);
+}
+
+.success-msg{
+  margin-top: 15px;
+  color: green;
+  font-weight: bold;
+}
