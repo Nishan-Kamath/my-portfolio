@@ -7,15 +7,17 @@ import Navbar from "./Navbar";
 import './App.css';
 
 function App(){
+  return(
   <Router>
     <Navbar/>
     <div className="main-container">
       <Routes>
-        <Route path="/" element={Home}></Route>
-        <Route path="/education" element={Education}></Route>
-        <Route path="/contact" element={Contact}></Route>
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="/education" element={<Education/>}></Route>
+        <Route path="/contact" element={<Contact/>}></Route>
       </Routes>
     </div>
   </Router>
+  )
 }
 export default App;
